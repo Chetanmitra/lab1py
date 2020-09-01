@@ -4,7 +4,7 @@
 #Collaborator: Jian Hong Weng jpw6087@psu.edu
 
 
-temperature = float(input("Enter temperature:"))
+temperature = float(input("Enter temperature: "))
 C_F = input("Enter unit in F/f or C/c:")
 if C_F == "F" or C_F =="f":
   celsius = (temperature-32)*5/9
