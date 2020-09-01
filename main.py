@@ -13,6 +13,6 @@ elif C_F == "C" or  C_F =="c":
   farheinheit = (temperature*(9/5))+32
   print(f" {temperature}° in Celsius is equivalent to {farheinheit}° Fahrenheit.")
 else:
-  print(f" Invalid unit({C_F}).\n\n")
+  print(f" Invalid unit({C_F}).\n")
 
 
